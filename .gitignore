@@ -1,0 +1,67 @@
+# Generated builds, packages, test results, and local review artifacts.
+bin/
+obj/
+build/
+builds/
+dist/
+publish/
+artifacts/
+TestResults/
+coverage/
+*.exe
+*.dll
+*.pdb
+*.resources
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.msi
+*.nupkg
+*.snupkg
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Private configuration, credentials, diagnostics, and screenshots.
+*.local.*
+.env
+.env.*
+!.env.example
+*.conf
+*.key
+*.pem
+*.pfx
+*.p12
+*.pub
+*.cer
+*.crt
+*.publishsettings
+*.rdp
+*.wsb
+*.log
+*.tmp
+*.bak
+
+# Per-user editor and operating-system state.
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Historical reports and helpers tied to this workstation or a specific build.
+# Keep these locally; the portable build does not depend on them.
+/docs/VERIFICATION.md
+/docs/STATUS-ALTERNATIVES.md
+/docs/SIGNING.md
+/docs/STORE.md
+/scripts/Install-ReviewedBuild.ps1
+/scripts/Enable-UiSandbox.ps1
+/scripts/Test-StatusHost.ps1

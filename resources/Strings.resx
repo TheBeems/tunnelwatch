@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Ui.Overview" xml:space="preserve"><value>Overview</value></data>
+  <data name="Ui.ProfileActive" xml:space="preserve"><value>{0} active</value></data>
+  <data name="Ui.DiagnosticsKeyboard" xml:space="preserve"><value>Read-only. Use Page Up, Page Down or Ctrl+End to scroll. Select text to copy.</value></data>
+  <data name="Ui.Press" xml:space="preserve"><value>Press</value></data>
+  <data name="Ui.VpnMode" xml:space="preserve"><value>VPN mode</value></data>
+  <data name="Ui.OffHint" xml:space="preserve"><value>Choose Split or Full to connect.</value></data>
+  <data name="Ui.LastChecked" xml:space="preserve"><value>Last checked</value></data>
+  <data name="Ui.ShowDetails" xml:space="preserve"><value>Show connection details</value></data>
+  <data name="Ui.HideDetails" xml:space="preserve"><value>Hide connection details</value></data>
+  <data name="Ui.Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Ui.Language" xml:space="preserve"><value>Language</value></data>
+  <data name="Error.LanguageSave" xml:space="preserve"><value>Could not save the language preference: {0}</value></data>
+  <data name="Ui.ModeSplit" xml:space="preserve"><value>Split</value></data>
+  <data name="Ui.ModeFull" xml:space="preserve"><value>Full</value></data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="Common.Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Common.Verified" xml:space="preserve"><value>Verified</value></data>
+  <data name="Common.Missing" xml:space="preserve"><value>Missing</value></data>
+  <data name="Common.Off" xml:space="preserve"><value>Off</value></data>
+  <data name="Common.TwoProfiles" xml:space="preserve"><value>Two profiles</value></data>
+  <data name="Common.ViaTunnel" xml:space="preserve"><value>Via tunnel</value></data>
+  <data name="Common.DirectHome" xml:space="preserve"><value>Direct home</value></data>
+  <data name="Common.Unconfirmed" xml:space="preserve"><value>Unconfirmed</value></data>
+  <data name="Status.FullCaveat" xml:space="preserve"><value>Internet coverage unconfirmed</value></data>
+  <data name="Status.NetworkChanged" xml:space="preserve"><value>Network changed</value></data>
+  <data name="Status.NetworkChangedReason" xml:space="preserve"><value>A route, service or listener changed during the check; a new measurement will follow.</value></data>
+  <data name="Status.ServiceUnknown" xml:space="preserve"><value>Service status unknown</value></data>
+  <data name="Status.ServiceUnknownReason" xml:space="preserve"><value>Unable to read the WireGuard service status.</value></data>
+  <data name="Status.Switching" xml:space="preserve"><value>WireGuard switching</value></data>
+  <data name="Status.SwitchingReason" xml:space="preserve"><value>A WireGuard service is starting or stopping.</value></data>
+  <data name="Status.BothActive" xml:space="preserve"><value>Two profiles active</value></data>
+  <data name="Status.BothActiveReason" xml:space="preserve"><value>Split and full are running together; check WireGuard.</value></data>
+  <data name="Status.WssUnknown" xml:space="preserve"><value>WSS unverified</value></data>
+  <data name="Status.WssUnknownReason" xml:space="preserve"><value>Unable to read the listener owner.</value></data>
+  <data name="Status.WssMissing" xml:space="preserve"><value>WSS transport missing</value></data>
+  <data name="Status.WssMissingReason" xml:space="preserve"><value>The UDP listener is missing while WireGuard is active.</value></data>
+  <data name="Status.RouteMissing" xml:space="preserve"><value>Route unavailable</value></data>
+  <data name="Status.NoRouterRoute" xml:space="preserve"><value>No router route.</value></data>
+  <data name="Status.WrongRoute" xml:space="preserve"><value>Route outside profile</value></data>
+  <data name="Status.RouterUnreachable" xml:space="preserve"><value>Router unreachable</value></data>
+  <data name="Status.RouterUnreachableReason" xml:space="preserve"><value>The router did not respond over the selected WireGuard route (timeout or ICMP blocked).</value></data>
+  <data name="Status.Healthy" xml:space="preserve"><value>Tunnel working</value></data>
+  <data name="Status.Home" xml:space="preserve"><value>Direct home connection</value></data>
+  <data name="Status.HomeReason" xml:space="preserve"><value>Homelab responds over the local home network; WireGuard is off.</value></data>
+  <data name="Status.Off" xml:space="preserve"><value>Tunnel off</value></data>
+  <data name="Status.OffReason" xml:space="preserve"><value>No active WireGuard profile; direct home connectivity has not been confirmed.</value></data>
+  <data name="Tray.Show" xml:space="preserve"><value>Show status</value></data>
+  <data name="Tray.Refresh" xml:space="preserve"><value>Refresh now</value></data>
+  <data name="Tray.WireGuard" xml:space="preserve"><value>Open WireGuard</value></data>
+  <data name="Tray.Startup" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Exit</value></data>
+  <data name="Status.Checking" xml:space="preserve"><value>Checking</value></data>
+  <data name="Status.CheckingReason" xml:space="preserve"><value>Checking the current connection.</value></data>
+  <data name="Status.Operating" xml:space="preserve"><value>Applying change</value></data>
+  <data name="Status.OperatingReason" xml:space="preserve"><value>Waiting for UAC and the existing Windows helper; current status will follow.</value></data>
+  <data name="Action.Wait" xml:space="preserve"><value>Waiting for UAC for the same user…</value></data>
+  <data name="Action.Cancelled" xml:space="preserve"><value>UAC cancelled; no action was performed.</value></data>
+  <data name="Status.Stale" xml:space="preserve"><value>Measurement expired</value></data>
+  <data name="Status.StaleReason" xml:space="preserve"><value>A new measurement is needed.</value></data>
+  <data name="Status.Sleep" xml:space="preserve"><value>Sleeping</value></data>
+  <data name="Status.SleepReason" xml:space="preserve"><value>A new measurement will follow after resume.</value></data>
+  <data name="Status.Recheck" xml:space="preserve"><value>The network changed; a new measurement is needed.</value></data>
+  <data name="Status.Unavailable" xml:space="preserve"><value>Check unavailable</value></data>
+  <data name="Error.WireGuardMissing" xml:space="preserve"><value>WireGuard was not found in Program Files.</value></data>
+  <data name="Error.StartupConflict" xml:space="preserve"><value>A different TunnelWatch startup entry exists; check it first.</value></data>
+  <data name="Tray.StartupTitle" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="Error.Path" xml:space="preserve"><value>Invalid path.</value></data>
+  <data name="Error.Action" xml:space="preserve"><value>Unknown action.</value></data>
+  <data name="Error.Installation" xml:space="preserve"><value>Controls support only the default TunnelWatchWss client layout and profile names.</value></data>
+  <data name="Error.HelperMissing" xml:space="preserve"><value>Control-TunnelWatch.ps1 is missing next to the app.</value></data>
+  <data name="Error.NoActionResult" xml:space="preserve"><value>No action result was received; check Windows application control or the existing helper.</value></data>
+  <data name="Error.StaleActionResult" xml:space="preserve"><value>No current result for this action; the old result was ignored.</value></data>
+  <data name="Error.ActionFailed" xml:space="preserve"><value>Action failed.</value></data>
+  <data name="Config.Missing" xml:space="preserve"><value>config.local.json is missing next to TunnelWatch.exe; see README.</value></data>
+  <data name="Config.Addresses" xml:space="preserve"><value>Router, HomeHost and DnsServer must be IPv4 addresses.</value></data>
+  <data name="Config.Subnet" xml:space="preserve"><value>HomeNetwork must be an IPv4 network with a prefix from /8 to /30.</value></data>
+  <data name="Config.Ranges" xml:space="preserve"><value>Invalid port, interval or timeout.</value></data>
+  <data name="Config.Profiles" xml:space="preserve"><value>Profile names or the WSS path are missing or overlap.</value></data>
+  <data name="Error.AlreadyRunning" xml:space="preserve"><value>TunnelWatch is already running in the system tray.</value></data>
+  <data name="Error.Startup" xml:space="preserve"><value>TunnelWatch cannot start</value></data>
+  <data name="Tip.Wss" xml:space="preserve"><value>WSS: verified owner of the local transport listener. TCP443 alone does not prove a tunnel.</value></data>
+  <data name="Tip.Vpn" xml:space="preserve"><value>Active WireGuard profile. The router response is confirmed separately under Homelab.</value></data>
+  <data name="Tip.Home" xml:space="preserve"><value>Via tunnel: the router responds over the active profile. Direct home: a response over your physical home network.</value></data>
+  <data name="Tip.Full" xml:space="preserve"><value>Enabling Full requires UAC and changes internet routes and DNS. A green router check does not prove full internet coverage.</value></data>
+  <data name="Tip.Off" xml:space="preserve"><value>Turning off VPN requires UAC. WSS may keep listening.</value></data>
+  <data name="Tip.Split" xml:space="preserve"><value>Enabling Split requires UAC; full is stopped and split/WSS are restored.</value></data>
+  <data name="Ui.Uac" xml:space="preserve"><value>Controls require UAC</value></data>
+  <data name="Ui.Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Ui.Details" xml:space="preserve"><value>Details</value></data>
+  <data name="Tip.Checked" xml:space="preserve"><value>Time of the last measurement; routes, services and the listener are checked again each round.</value></data>
+  <data name="Ui.Dns" xml:space="preserve"><value>Check DNS</value></data>
+  <data name="Ui.Diagnostics" xml:space="preserve"><value>Technical connection details</value></data>
+  <data name="Ui.Less" xml:space="preserve"><value>Less</value></data>
+  <data name="Ui.Checking" xml:space="preserve"><value>Checking…</value></data>
+  <data name="Ui.DisableVpn" xml:space="preserve"><value>Turn off VPN</value></data>
+  <data name="Ui.WssStop" xml:space="preserve"><value>Stop WSS</value></data>
+  <data name="Ui.WssStart" xml:space="preserve"><value>Start WSS</value></data>
+  <data name="Tip.WssStop" xml:space="preserve"><value>Requires UAC. Interrupts an active tunnel; full may lose internet access.</value></data>
+  <data name="Tip.WssStart" xml:space="preserve"><value>Requires UAC and starts the existing local WSS task.</value></data>
+  <data name="Ui.NoMeasurement" xml:space="preserve"><value>No measurement yet</value></data>
+  <data name="Service.Running" xml:space="preserve"><value>running</value></data>
+  <data name="Service.Missing" xml:space="preserve"><value>not installed</value></data>
+  <data name="Service.Off" xml:space="preserve"><value>off</value></data>
+  <data name="Service.Switching" xml:space="preserve"><value>switching</value></data>
+  <data name="Service.Unknown" xml:space="preserve"><value>unknown</value></data>
+  <data name="Architecture.Native" xml:space="preserve"><value> (native)</value></data>
+  <data name="Error.UdpTable" xml:space="preserve"><value>Invalid UDP table.</value></data>
+  <data name="Error.TcpTable" xml:space="preserve"><value>Invalid TCP table.</value></data>
+  <data name="Error.SocketSize" xml:space="preserve"><value>Unexpected socket table size.</value></data>
+  <data name="Error.SocketChanging" xml:space="preserve"><value>The socket table kept changing.</value></data>
+  <data name="Probe.NoRoute" xml:space="preserve"><value>No usable route for ICMP.</value></data>
+  <data name="Wss.MultipleOwners" xml:space="preserve"><value>Multiple WSS listener owners; transport cannot be reliably verified.</value></data>
+  <data name="Wss.WrongOwner" xml:space="preserve"><value>The UDP listener belongs to an executable other than the configured wstunnel.exe.</value></data>
+  <data name="Probe.RouterSkipped" xml:space="preserve"><value>Tunnel off; router check skipped.</value></data>
+  <data name="Probe.NoHomeRoute" xml:space="preserve"><value>No direct home route.</value></data>
+  <data name="Dns.InvalidName" xml:space="preserve"><value>DNS: invalid name.</value></data>
+  <data name="Dns.RouteChanged" xml:space="preserve"><value>DNS: route changed during the check.</value></data>
+  <data name="Dns.InvalidReply" xml:space="preserve"><value>DNS: invalid response.</value></data>
+  <data name="Config.LanguageInvalid" xml:space="preserve"><value>Invalid language code: {0}. Use a value such as en or nl.</value></data>
+  <data name="Route.Description" xml:space="preserve"><value>{0} (#{1}), source {2}, {3}/{4}, via {5}</value></data>
+  <data name="Status.WrongRouteReason" xml:space="preserve"><value>The router route uses {0}.</value></data>
+  <data name="Status.WrongRouteHomeReason" xml:space="preserve"><value>The router route uses {0}. Homelab is reachable directly at home.</value></data>
+  <data name="Status.HealthyReason" xml:space="preserve"><value>The router responds over {0}; the WSS listener belongs to the configured wstunnel.exe.</value></data>
+  <data name="Error.MeasureRange" xml:space="preserve"><value>--measure requires 20 to 600 seconds.</value></data>
+  <data name="Error.ActionDetail" xml:space="preserve"><value>Action failed: {0}</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>TunnelWatch · {0} · {1}</value></data>
+  <data name="Ui.Active" xml:space="preserve"><value>{0}, active</value></data>
+  <data name="Ui.Enable" xml:space="preserve"><value>Enable {0}</value></data>
+  <data name="Ui.Checked" xml:space="preserve"><value>Last check: {0}</value></data>
+  <data name="Ui.DetailsText" xml:space="preserve"><value>WireGuard: {0} · split {1}, full {2}
+WSS: {3}
+Router route: {4}
+Home route: {5}
+Last check: {6} ({7} ms)
+
+{8}
+
+Handshakes/tunnel counters: not read; encrypted profiles require administrator rights.
+{9} · {10}</value></data>
+  <data name="Ui.Admin" xml:space="preserve"><value>Process has administrator rights</value></data>
+  <data name="Ui.NoAdmin" xml:space="preserve"><value>Process without administrator rights</value></data>
+  <data name="Architecture.Emulated" xml:space="preserve"><value> (emulated 0x{0})</value></data>
+  <data name="Error.RouteUnreadable" xml:space="preserve"><value>Unable to read route: {0}</value></data>
+  <data name="Probe.Timeout" xml:space="preserve"><value>ICMP {0}: timeout; source {1}.</value></data>
+  <data name="Probe.Status" xml:space="preserve"><value>ICMP {0}: status {1}; source {2}.</value></data>
+  <data name="Error.Service" xml:space="preserve"><value>Service {0}: {1}</value></data>
+  <data name="Wss.NoListener" xml:space="preserve"><value>No UDP 127.0.0.1:{0}; check the existing WSS task.</value></data>
+  <data name="Wss.TcpEstablished" xml:space="preserve"><value>UDP owner verified; TCP443 Established (supporting evidence).</value></data>
+  <data name="Wss.TcpWaiting" xml:space="preserve"><value>UDP owner verified; TCP443 not Established (may be waiting for traffic).</value></data>
+  <data name="Wss.TcpUnreadable" xml:space="preserve"><value>UDP owner verified; unable to read TCP443: {0}</value></data>
+  <data name="Wss.OwnerUnreadable" xml:space="preserve"><value>Unable to read WSS owner: {0}</value></data>
+  <data name="Dns.Success" xml:space="preserve"><value>DNS {0} via {1}: response received (does not prove VPN connectivity).</value></data>
+  <data name="Dns.Partial" xml:space="preserve"><value>DNS {0} via {1}: rcode {2}, {3} answers; possibly truncated.</value></data>
+  <data name="Dns.Error" xml:space="preserve"><value>DNS check: {0}</value></data>
+  <data name="Helper.UnexpectedOwner" xml:space="preserve"><value>UDP 39075 belongs to an unexpected process; nothing was stopped.</value></data>
+  <data name="Helper.FullError" xml:space="preserve"><value>The existing full helper reported an error (exit {0}); check the current status again.</value></data>
+  <data name="Helper.NotPerformed" xml:space="preserve"><value>Action not performed.</value></data>
+  <data name="Helper.UserMismatch" xml:space="preserve"><value>Confirm UAC with the same Windows user; a different account will not be used.</value></data>
+  <data name="Helper.UacRequired" xml:space="preserve"><value>These manual controls require a UAC-approved process.</value></data>
+  <data name="Helper.InstallationMissing" xml:space="preserve"><value>The TunnelWatchWss client installation is missing.</value></data>
+  <data name="Helper.FullMissing" xml:space="preserve"><value>TunnelWatch-Wss-Full.ps1 is missing; routes/DNS will not be changed directly.</value></data>
+  <data name="Helper.Validated" xml:space="preserve"><value>Files and user checked; no network action performed.</value></data>
+  <data name="Helper.ListenerMissing" xml:space="preserve"><value>WSS task started, but no verified UDP listener appeared.</value></data>
+  <data name="Helper.WssStarted" xml:space="preserve"><value>Local WSS transport started; a current tunnel check will follow.</value></data>
+  <data name="Helper.TaskStopping" xml:space="preserve"><value>The WSS task is still stopping; no child processes will be stopped.</value></data>
+  <data name="Helper.ChildStopping" xml:space="preserve"><value>The verified WSS child process is still stopping.</value></data>
+  <data name="Helper.ListenerRemains" xml:space="preserve"><value>The WSS listener still exists; check the task manually.</value></data>
+  <data name="Helper.WssStopped" xml:space="preserve"><value>Local WSS transport stopped; an active WireGuard profile may now be broken.</value></data>
+  <data name="Helper.SplitInactive" xml:space="preserve"><value>The split profile is not active after the existing helper.</value></data>
+  <data name="Helper.SplitRequested" xml:space="preserve"><value>Split requested through the existing full helper; a current tunnel check will follow.</value></data>
+  <data name="Helper.FullInactive" xml:space="preserve"><value>The full profile is not active after the existing helper.</value></data>
+  <data name="Helper.FullRequested" xml:space="preserve"><value>Full requested through the existing helper; a current tunnel check will follow.</value></data>
+  <data name="Helper.FullStillActive" xml:space="preserve"><value>The full service is still active after cleanup.</value></data>
+  <data name="Helper.Off" xml:space="preserve"><value>WireGuard off; full routes/DNS cleaned up by the existing helper. WSS may keep listening.</value></data>
+  <data name="Error.WindowsCode" xml:space="preserve"><value>Windows error {0}.</value></data>
+  <data name="Error.WindowsDetail" xml:space="preserve"><value>{0} (Windows error {1})</value></data>
+  <data name="Config.Empty" xml:space="preserve"><value>The configuration is empty.</value></data>
+  <data name="Config.Size" xml:space="preserve"><value>The configuration exceeds 64 KiB.</value></data>
+  <data name="Config.Executable" xml:space="preserve"><value>Enter an absolute WSS program path. Environment variables are allowed.</value></data>
+  <data name="Settings.ConnectionSettings" xml:space="preserve"><value>Connection and settings…</value></data>
+  <data name="Settings.Connection" xml:space="preserve"><value>Connection</value></data>
+  <data name="Settings.Monitoring" xml:space="preserve"><value>Monitoring</value></data>
+  <data name="Settings.General" xml:space="preserve"><value>General</value></data>
+  <data name="Settings.Relay" xml:space="preserve"><value>Relay server (WSS client)</value></data>
+  <data name="Settings.TcpPeers" xml:space="preserve"><value>Connected TCP peers</value></data>
+  <data name="Settings.ActiveProfile" xml:space="preserve"><value>Active WireGuard profile</value></data>
+  <data name="Settings.NoProfile" xml:space="preserve"><value>No active profile</value></data>
+  <data name="Settings.NoTransport" xml:space="preserve"><value>The local WSS transport is off. No current relay is known.</value></data>
+  <data name="Settings.NoTcp" xml:space="preserve"><value>No established TCP connection</value></data>
+  <data name="Settings.RelayUnknown" xml:space="preserve"><value>The WSS server argument could not be identified.</value></data>
+  <data name="Settings.RelayUnreadable" xml:space="preserve"><value>The current relay could not be read. No administrator access is requested.</value></data>
+  <data name="Settings.TransportChanged" xml:space="preserve"><value>The WSS process changed during the check. Refresh to check again.</value></data>
+  <data name="Settings.RelayMeasured" xml:space="preserve"><value>Server from the WSS client. TCP peers do not prove a working TLS or VPN connection.</value></data>
+  <data name="Settings.RefreshHint" xml:space="preserve"><value>Refresh to read the current WSS relay.</value></data>
+  <data name="Settings.ExternalNote" xml:space="preserve"><value>Manage VPN profile contents in WireGuard. The relay destination is managed by the existing WSS scripts.</value></data>
+  <data name="Settings.SplitProfile" xml:space="preserve"><value>Split profile to monitor</value></data>
+  <data name="Settings.FullProfile" xml:space="preserve"><value>Full profile to monitor</value></data>
+  <data name="Settings.WssExecutable" xml:space="preserve"><value>WSS program</value></data>
+  <data name="Settings.ListenerPort" xml:space="preserve"><value>Local UDP port</value></data>
+  <data name="Settings.Browse" xml:space="preserve"><value>Browse…</value></data>
+  <data name="Settings.ExecutableFilter" xml:space="preserve"><value>Programs (*.exe)|*.exe|All files (*.*)|*.*</value></data>
+  <data name="Settings.ControlNote" xml:space="preserve"><value>The VPN buttons support the default TunnelWatchWss client layout. Other profile names, programs or ports disable those buttons.</value></data>
+  <data name="Settings.MonitoringNote" xml:space="preserve"><value>These settings select what TunnelWatch checks. Saving does not change VPN routes, DNS or the WSS connection.</value></data>
+  <data name="Settings.Router" xml:space="preserve"><value>Router test address (IPv4)</value></data>
+  <data name="Settings.HomeHost" xml:space="preserve"><value>Home test address (IPv4)</value></data>
+  <data name="Settings.HomeNetwork" xml:space="preserve"><value>Home network (CIDR)</value></data>
+  <data name="Settings.DnsServer" xml:space="preserve"><value>DNS test server (IPv4)</value></data>
+  <data name="Settings.DnsName" xml:space="preserve"><value>DNS test name</value></data>
+  <data name="Settings.Interval" xml:space="preserve"><value>Check interval (seconds)</value></data>
+  <data name="Settings.Timeout" xml:space="preserve"><value>Test timeout (milliseconds)</value></data>
+  <data name="Settings.ImmediateNote" xml:space="preserve"><value>Language and start at sign-in apply immediately. Save applies the connection monitoring settings.</value></data>
+  <data name="Settings.Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Settings.Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Settings.SaveError" xml:space="preserve"><value>Could not apply settings: {0}</value></data>
+  <data name="Settings.SaveUnavailable" xml:space="preserve"><value>No settings storage is available.</value></data>
+</root>

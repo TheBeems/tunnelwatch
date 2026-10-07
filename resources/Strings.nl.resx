@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Ui.Overview" xml:space="preserve"><value>Overzicht</value></data>
+  <data name="Ui.ProfileActive" xml:space="preserve"><value>{0} actief</value></data>
+  <data name="Ui.DiagnosticsKeyboard" xml:space="preserve"><value>Alleen-lezen. Gebruik Page Up, Page Down of Ctrl+End om te scrollen. Selecteer tekst om te kopiëren.</value></data>
+  <data name="Ui.Press" xml:space="preserve"><value>Drukken</value></data>
+  <data name="Ui.VpnMode" xml:space="preserve"><value>VPN-modus</value></data>
+  <data name="Ui.OffHint" xml:space="preserve"><value>Kies Split of Full om te verbinden.</value></data>
+  <data name="Ui.LastChecked" xml:space="preserve"><value>Laatst gecontroleerd</value></data>
+  <data name="Ui.ShowDetails" xml:space="preserve"><value>Verbindingsdetails tonen</value></data>
+  <data name="Ui.HideDetails" xml:space="preserve"><value>Verbindingsdetails verbergen</value></data>
+  <data name="Ui.Settings" xml:space="preserve"><value>Instellingen</value></data>
+  <data name="Ui.Language" xml:space="preserve"><value>Taal</value></data>
+  <data name="Error.LanguageSave" xml:space="preserve"><value>De taalvoorkeur kon niet worden opgeslagen: {0}</value></data>
+  <data name="Config.LanguageInvalid" xml:space="preserve"><value>Ongeldige taalcode: {0}. Gebruik bijvoorbeeld en of nl.</value></data>
+  <data name="Ui.ModeSplit" xml:space="preserve"><value>Split</value></data>
+  <data name="Ui.ModeFull" xml:space="preserve"><value>Full</value></data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="Common.Unknown" xml:space="preserve"><value>Onbekend</value></data>
+  <data name="Common.Verified" xml:space="preserve"><value>Geverifieerd</value></data>
+  <data name="Common.Missing" xml:space="preserve"><value>Ontbreekt</value></data>
+  <data name="Common.Off" xml:space="preserve"><value>Uit</value></data>
+  <data name="Common.TwoProfiles" xml:space="preserve"><value>Twee profielen</value></data>
+  <data name="Common.ViaTunnel" xml:space="preserve"><value>Via tunnel</value></data>
+  <data name="Common.DirectHome" xml:space="preserve"><value>Direct thuis</value></data>
+  <data name="Common.Unconfirmed" xml:space="preserve"><value>Niet bevestigd</value></data>
+  <data name="Status.FullCaveat" xml:space="preserve"><value>Internetdekking niet bevestigd</value></data>
+  <data name="Status.NetworkChanged" xml:space="preserve"><value>Netwerk gewijzigd</value></data>
+  <data name="Status.NetworkChangedReason" xml:space="preserve"><value>Route, dienst of listener veranderde tijdens de controle; nieuwe meting volgt.</value></data>
+  <data name="Status.ServiceUnknown" xml:space="preserve"><value>Dienststatus onbekend</value></data>
+  <data name="Status.ServiceUnknownReason" xml:space="preserve"><value>WireGuard-dienststatus kon niet worden gelezen.</value></data>
+  <data name="Status.Switching" xml:space="preserve"><value>WireGuard schakelt</value></data>
+  <data name="Status.SwitchingReason" xml:space="preserve"><value>Een WireGuard-dienst start of stopt.</value></data>
+  <data name="Status.BothActive" xml:space="preserve"><value>Twee profielen actief</value></data>
+  <data name="Status.BothActiveReason" xml:space="preserve"><value>Split en full draaien tegelijk; controleer WireGuard.</value></data>
+  <data name="Status.WssUnknown" xml:space="preserve"><value>WSS niet te verifiëren</value></data>
+  <data name="Status.WssUnknownReason" xml:space="preserve"><value>De listener-eigenaar kon niet worden gelezen.</value></data>
+  <data name="Status.WssMissing" xml:space="preserve"><value>WSS-transport ontbreekt</value></data>
+  <data name="Status.WssMissingReason" xml:space="preserve"><value>UDP-listener ontbreekt terwijl WireGuard actief is.</value></data>
+  <data name="Status.RouteMissing" xml:space="preserve"><value>Route niet beschikbaar</value></data>
+  <data name="Status.NoRouterRoute" xml:space="preserve"><value>Geen routerroute.</value></data>
+  <data name="Status.WrongRoute" xml:space="preserve"><value>Route loopt buiten het profiel</value></data>
+  <data name="Status.RouterUnreachable" xml:space="preserve"><value>Router niet bereikbaar</value></data>
+  <data name="Status.RouterUnreachableReason" xml:space="preserve"><value>Router antwoordt niet via de geselecteerde WireGuard-route (time-out of ICMP geblokkeerd).</value></data>
+  <data name="Status.Healthy" xml:space="preserve"><value>Tunnel werkt</value></data>
+  <data name="Status.Home" xml:space="preserve"><value>Rechtstreeks thuis</value></data>
+  <data name="Status.HomeReason" xml:space="preserve"><value>Homelab antwoordt via het lokale thuisnetwerk; WireGuard staat uit.</value></data>
+  <data name="Status.Off" xml:space="preserve"><value>Tunnel uit</value></data>
+  <data name="Status.OffReason" xml:space="preserve"><value>Geen actief WireGuard-profiel; rechtstreekse thuisbereikbaarheid is niet aangetoond.</value></data>
+  <data name="Tray.Show" xml:space="preserve"><value>Status tonen</value></data>
+  <data name="Tray.Refresh" xml:space="preserve"><value>Handmatig verversen</value></data>
+  <data name="Tray.WireGuard" xml:space="preserve"><value>WireGuard openen</value></data>
+  <data name="Tray.Startup" xml:space="preserve"><value>Starten bij Windows-aanmelding</value></data>
+  <data name="Tray.Exit" xml:space="preserve"><value>Afsluiten</value></data>
+  <data name="Status.Checking" xml:space="preserve"><value>Controleren</value></data>
+  <data name="Status.CheckingReason" xml:space="preserve"><value>Actuele verbinding wordt gecontroleerd.</value></data>
+  <data name="Status.Operating" xml:space="preserve"><value>Bediening uitvoeren</value></data>
+  <data name="Status.OperatingReason" xml:space="preserve"><value>Wacht op UAC en de bestaande Windows-helper; actuele status volgt.</value></data>
+  <data name="Action.Wait" xml:space="preserve"><value>Wacht op UAC voor dezelfde gebruiker…</value></data>
+  <data name="Action.Cancelled" xml:space="preserve"><value>UAC geannuleerd; geen bediening uitgevoerd.</value></data>
+  <data name="Status.Stale" xml:space="preserve"><value>Meting verouderd</value></data>
+  <data name="Status.StaleReason" xml:space="preserve"><value>Nieuwe actuele meting nodig.</value></data>
+  <data name="Status.Sleep" xml:space="preserve"><value>Slaapstand</value></data>
+  <data name="Status.SleepReason" xml:space="preserve"><value>Na hervatten volgt een nieuwe meting.</value></data>
+  <data name="Status.Recheck" xml:space="preserve"><value>Netwerk veranderd; nieuwe meting nodig.</value></data>
+  <data name="Status.Unavailable" xml:space="preserve"><value>Controle niet beschikbaar</value></data>
+  <data name="Error.WireGuardMissing" xml:space="preserve"><value>WireGuard is niet gevonden in Program Files.</value></data>
+  <data name="Error.StartupConflict" xml:space="preserve"><value>Een andere TunnelWatch-startregel bestaat; controleer die eerst.</value></data>
+  <data name="Tray.StartupTitle" xml:space="preserve"><value>Starten bij aanmelding</value></data>
+  <data name="Error.Path" xml:space="preserve"><value>Ongeldig pad.</value></data>
+  <data name="Error.Action" xml:space="preserve"><value>Onbekende actie.</value></data>
+  <data name="Error.Installation" xml:space="preserve"><value>Bediening ondersteunt alleen de standaard TunnelWatchWss-clientindeling en profielnamen.</value></data>
+  <data name="Error.HelperMissing" xml:space="preserve"><value>Control-TunnelWatch.ps1 ontbreekt naast de app.</value></data>
+  <data name="Error.NoActionResult" xml:space="preserve"><value>Bediening gaf geen resultaat; controleer Windows-toepassingsbeheer of de bestaande helper.</value></data>
+  <data name="Error.StaleActionResult" xml:space="preserve"><value>Geen actueel resultaat voor deze actie; oud resultaat genegeerd.</value></data>
+  <data name="Error.ActionFailed" xml:space="preserve"><value>Bediening mislukt.</value></data>
+  <data name="Config.Missing" xml:space="preserve"><value>config.local.json ontbreekt naast TunnelWatch.exe; zie README.</value></data>
+  <data name="Config.Addresses" xml:space="preserve"><value>Router, HomeHost en DnsServer moeten IPv4-adressen zijn.</value></data>
+  <data name="Config.Subnet" xml:space="preserve"><value>HomeNetwork moet een IPv4-netwerk met prefix /8 t/m /30 zijn.</value></data>
+  <data name="Config.Ranges" xml:space="preserve"><value>Ongeldige poort, interval of time-out.</value></data>
+  <data name="Config.Profiles" xml:space="preserve"><value>Profielnamen en WSS-pad ontbreken of overlappen.</value></data>
+  <data name="Error.AlreadyRunning" xml:space="preserve"><value>TunnelWatch draait al in het systeemvak.</value></data>
+  <data name="Error.Startup" xml:space="preserve"><value>TunnelWatch kan niet starten</value></data>
+  <data name="Tip.Wss" xml:space="preserve"><value>WSS: geverifieerde eigenaar van de lokale transportlistener. TCP443 alleen bewijst geen tunnel.</value></data>
+  <data name="Tip.Vpn" xml:space="preserve"><value>Actief WireGuard-profiel. Het routerantwoord wordt apart onder Homelab bevestigd.</value></data>
+  <data name="Tip.Home" xml:space="preserve"><value>Via tunnel betekent: router antwoordt via het actieve profiel. Direct thuis betekent: antwoord via je fysieke thuisnetwerk.</value></data>
+  <data name="Tip.Full" xml:space="preserve"><value>Full inschakelen vraagt UAC en wijzigt internetroutes en DNS. Een groene routertest bewijst geen volledige internetdekking.</value></data>
+  <data name="Tip.Off" xml:space="preserve"><value>VPN uitzetten vraagt UAC. WSS mag blijven luisteren.</value></data>
+  <data name="Tip.Split" xml:space="preserve"><value>Split inschakelen vraagt UAC; full wordt gestopt en split/WSS worden hersteld.</value></data>
+  <data name="Ui.Uac" xml:space="preserve"><value>Bediening vraagt UAC</value></data>
+  <data name="Ui.Refresh" xml:space="preserve"><value>Verversen</value></data>
+  <data name="Ui.Details" xml:space="preserve"><value>Details</value></data>
+  <data name="Tip.Checked" xml:space="preserve"><value>Tijd van de laatste meetronde; route, diensten en listener worden iedere ronde opnieuw gecontroleerd.</value></data>
+  <data name="Ui.Dns" xml:space="preserve"><value>DNS controleren</value></data>
+  <data name="Ui.Diagnostics" xml:space="preserve"><value>Technische verbindingsdetails</value></data>
+  <data name="Ui.Less" xml:space="preserve"><value>Minder</value></data>
+  <data name="Ui.Checking" xml:space="preserve"><value>Controleren…</value></data>
+  <data name="Ui.DisableVpn" xml:space="preserve"><value>VPN uitschakelen</value></data>
+  <data name="Ui.WssStop" xml:space="preserve"><value>WSS uitzetten</value></data>
+  <data name="Ui.WssStart" xml:space="preserve"><value>WSS aanzetten</value></data>
+  <data name="Tip.WssStop" xml:space="preserve"><value>Vraagt UAC. Onderbreekt een actieve tunnel; bij full kan internet wegvallen.</value></data>
+  <data name="Tip.WssStart" xml:space="preserve"><value>Vraagt UAC en start de bestaande lokale WSS-taak.</value></data>
+  <data name="Ui.NoMeasurement" xml:space="preserve"><value>Nog geen meting</value></data>
+  <data name="Service.Running" xml:space="preserve"><value>actief</value></data>
+  <data name="Service.Missing" xml:space="preserve"><value>niet geïnstalleerd</value></data>
+  <data name="Service.Off" xml:space="preserve"><value>uit</value></data>
+  <data name="Service.Switching" xml:space="preserve"><value>schakelt</value></data>
+  <data name="Service.Unknown" xml:space="preserve"><value>onbekend</value></data>
+  <data name="Architecture.Native" xml:space="preserve"><value> (native)</value></data>
+  <data name="Error.UdpTable" xml:space="preserve"><value>Ongeldige UDP-tabel.</value></data>
+  <data name="Error.TcpTable" xml:space="preserve"><value>Ongeldige TCP-tabel.</value></data>
+  <data name="Error.SocketSize" xml:space="preserve"><value>Onverwachte socket-tabelgrootte.</value></data>
+  <data name="Error.SocketChanging" xml:space="preserve"><value>Socket-tabel bleef veranderen.</value></data>
+  <data name="Probe.NoRoute" xml:space="preserve"><value>Geen bruikbare route voor ICMP.</value></data>
+  <data name="Wss.MultipleOwners" xml:space="preserve"><value>Meerdere eigenaren van de WSS-listener; transport niet betrouwbaar te verifiëren.</value></data>
+  <data name="Wss.WrongOwner" xml:space="preserve"><value>UDP-listener hoort bij een ander uitvoerbaar bestand dan de ingestelde wstunnel.exe.</value></data>
+  <data name="Probe.RouterSkipped" xml:space="preserve"><value>Tunnel uit; routertest overgeslagen.</value></data>
+  <data name="Probe.NoHomeRoute" xml:space="preserve"><value>Geen directe thuisroute.</value></data>
+  <data name="Dns.InvalidName" xml:space="preserve"><value>DNS: ongeldige naam.</value></data>
+  <data name="Dns.RouteChanged" xml:space="preserve"><value>DNS: route veranderde tijdens de controle.</value></data>
+  <data name="Dns.InvalidReply" xml:space="preserve"><value>DNS: ongeldig antwoord.</value></data>
+  <data name="Route.Description" xml:space="preserve"><value>{0} (#{1}), bron {2}, {3}/{4}, via {5}</value></data>
+  <data name="Status.WrongRouteReason" xml:space="preserve"><value>De routerroute gebruikt {0}.</value></data>
+  <data name="Status.WrongRouteHomeReason" xml:space="preserve"><value>De routerroute gebruikt {0}. Homelab is rechtstreeks thuis bereikbaar.</value></data>
+  <data name="Status.HealthyReason" xml:space="preserve"><value>Router antwoordt via {0}; WSS-listener hoort bij de ingestelde wstunnel.exe.</value></data>
+  <data name="Error.MeasureRange" xml:space="preserve"><value>--measure vereist 20 t/m 600 seconden.</value></data>
+  <data name="Error.ActionDetail" xml:space="preserve"><value>Bediening mislukt: {0}</value></data>
+  <data name="Tray.Tooltip" xml:space="preserve"><value>TunnelWatch · {0} · {1}</value></data>
+  <data name="Ui.Active" xml:space="preserve"><value>{0}, actief</value></data>
+  <data name="Ui.Enable" xml:space="preserve"><value>{0} inschakelen</value></data>
+  <data name="Ui.Checked" xml:space="preserve"><value>Laatste controle: {0}</value></data>
+  <data name="Ui.DetailsText" xml:space="preserve"><value>WireGuard: {0} · split {1}, full {2}
+WSS: {3}
+Routerroute: {4}
+Thuisroute: {5}
+Laatste controle: {6} ({7} ms)
+
+{8}
+
+Handshakes/tunnelcounters: niet uitgelezen; versleutelde profielen vereisen administratorrechten.
+{9} · {10}</value></data>
+  <data name="Ui.Admin" xml:space="preserve"><value>Proces heeft administratorrechten</value></data>
+  <data name="Ui.NoAdmin" xml:space="preserve"><value>Proces zonder administratorrechten</value></data>
+  <data name="Architecture.Emulated" xml:space="preserve"><value> (emulatie 0x{0})</value></data>
+  <data name="Error.RouteUnreadable" xml:space="preserve"><value>Route niet leesbaar: {0}</value></data>
+  <data name="Probe.Timeout" xml:space="preserve"><value>ICMP {0}: time-out; bron {1}.</value></data>
+  <data name="Probe.Status" xml:space="preserve"><value>ICMP {0}: status {1}; bron {2}.</value></data>
+  <data name="Error.Service" xml:space="preserve"><value>Dienst {0}: {1}</value></data>
+  <data name="Wss.NoListener" xml:space="preserve"><value>Geen UDP 127.0.0.1:{0}; controleer de bestaande WSS-taak.</value></data>
+  <data name="Wss.TcpEstablished" xml:space="preserve"><value>UDP-eigenaar geverifieerd; TCP443 Established (aanwijzing).</value></data>
+  <data name="Wss.TcpWaiting" xml:space="preserve"><value>UDP-eigenaar geverifieerd; TCP443 niet Established (kan wachten op verkeer).</value></data>
+  <data name="Wss.TcpUnreadable" xml:space="preserve"><value>UDP-eigenaar geverifieerd; TCP443 niet leesbaar: {0}</value></data>
+  <data name="Wss.OwnerUnreadable" xml:space="preserve"><value>WSS-eigenaar niet leesbaar: {0}</value></data>
+  <data name="Dns.Success" xml:space="preserve"><value>DNS {0} via {1}: antwoord ontvangen (geen bewijs van VPN).</value></data>
+  <data name="Dns.Partial" xml:space="preserve"><value>DNS {0} via {1}: rcode {2}, {3} antwoorden; mogelijk afgekapt.</value></data>
+  <data name="Dns.Error" xml:space="preserve"><value>DNS-controle: {0}</value></data>
+  <data name="Helper.UnexpectedOwner" xml:space="preserve"><value>UDP 39075 hoort bij een onverwacht proces; niets gestopt.</value></data>
+  <data name="Helper.FullError" xml:space="preserve"><value>De bestaande full-helper meldde een fout (exit {0}); actuele status opnieuw controleren.</value></data>
+  <data name="Helper.NotPerformed" xml:space="preserve"><value>Actie niet uitgevoerd.</value></data>
+  <data name="Helper.UserMismatch" xml:space="preserve"><value>Bevestig UAC met dezelfde Windows-gebruiker; een ander gebruikersaccount wordt niet gebruikt.</value></data>
+  <data name="Helper.UacRequired" xml:space="preserve"><value>Deze handmatige bediening vereist een UAC-goedgekeurd proces.</value></data>
+  <data name="Helper.InstallationMissing" xml:space="preserve"><value>De TunnelWatchWss-clientinstallatie ontbreekt.</value></data>
+  <data name="Helper.FullMissing" xml:space="preserve"><value>TunnelWatch-Wss-Full.ps1 ontbreekt; routes/DNS worden niet zelf gewijzigd.</value></data>
+  <data name="Helper.Validated" xml:space="preserve"><value>Bestanden en gebruiker gecontroleerd; geen netwerkactie uitgevoerd.</value></data>
+  <data name="Helper.ListenerMissing" xml:space="preserve"><value>WSS-taak gestart, maar geen geverifieerde UDP-listener verschenen.</value></data>
+  <data name="Helper.WssStarted" xml:space="preserve"><value>Lokaal WSS-transport gestart; actuele tunnelcontrole volgt.</value></data>
+  <data name="Helper.TaskStopping" xml:space="preserve"><value>WSS-taak stopt nog; er worden geen child-processen gestopt.</value></data>
+  <data name="Helper.ChildStopping" xml:space="preserve"><value>Het geverifieerde WSS-child-proces stopt nog.</value></data>
+  <data name="Helper.ListenerRemains" xml:space="preserve"><value>WSS-listener bestaat nog; controleer de taak handmatig.</value></data>
+  <data name="Helper.WssStopped" xml:space="preserve"><value>Lokaal WSS-transport gestopt; een actief WireGuard-profiel kan nu defect zijn.</value></data>
+  <data name="Helper.SplitInactive" xml:space="preserve"><value>Split-profiel is niet actief na de bestaande helper.</value></data>
+  <data name="Helper.SplitRequested" xml:space="preserve"><value>Split aangevraagd via bestaande full-helper; actuele tunnelcontrole volgt.</value></data>
+  <data name="Helper.FullInactive" xml:space="preserve"><value>Full-profiel is niet actief na de bestaande helper.</value></data>
+  <data name="Helper.FullRequested" xml:space="preserve"><value>Full aangevraagd via bestaande helper; actuele tunnelcontrole volgt.</value></data>
+  <data name="Helper.FullStillActive" xml:space="preserve"><value>Full-dienst is nog actief na cleanup.</value></data>
+  <data name="Helper.Off" xml:space="preserve"><value>WireGuard uit; full-routes/DNS via bestaande helper opgeruimd. WSS kan nog luisteren.</value></data>
+  <data name="Error.WindowsCode" xml:space="preserve"><value>Windows-fout {0}.</value></data>
+  <data name="Error.WindowsDetail" xml:space="preserve"><value>{0} (Windows-fout {1})</value></data>
+  <data name="Config.Empty" xml:space="preserve"><value>De configuratie is leeg.</value></data>
+  <data name="Config.Size" xml:space="preserve"><value>De configuratie is groter dan 64 KiB.</value></data>
+  <data name="Config.Executable" xml:space="preserve"><value>Vul een absoluut WSS-programmapad in. Omgevingsvariabelen zijn toegestaan.</value></data>
+  <data name="Settings.ConnectionSettings" xml:space="preserve"><value>Verbinding en instellingen…</value></data>
+  <data name="Settings.Connection" xml:space="preserve"><value>Verbinding</value></data>
+  <data name="Settings.Monitoring" xml:space="preserve"><value>Controles</value></data>
+  <data name="Settings.General" xml:space="preserve"><value>Algemeen</value></data>
+  <data name="Settings.Relay" xml:space="preserve"><value>Relayserver (WSS-client)</value></data>
+  <data name="Settings.TcpPeers" xml:space="preserve"><value>Verbonden TCP-peers</value></data>
+  <data name="Settings.ActiveProfile" xml:space="preserve"><value>Actief WireGuard-profiel</value></data>
+  <data name="Settings.NoProfile" xml:space="preserve"><value>Geen actief profiel</value></data>
+  <data name="Settings.NoTransport" xml:space="preserve"><value>Het lokale WSS-transport staat uit. Er is geen actuele relay bekend.</value></data>
+  <data name="Settings.NoTcp" xml:space="preserve"><value>Geen actieve TCP-verbinding</value></data>
+  <data name="Settings.RelayUnknown" xml:space="preserve"><value>Het WSS-serverargument kon niet worden vastgesteld.</value></data>
+  <data name="Settings.RelayUnreadable" xml:space="preserve"><value>De actuele relay kon niet worden gelezen. Er worden geen administratorrechten gevraagd.</value></data>
+  <data name="Settings.TransportChanged" xml:space="preserve"><value>Het WSS-proces veranderde tijdens de controle. Ververs voor een nieuwe controle.</value></data>
+  <data name="Settings.RelayMeasured" xml:space="preserve"><value>Server uit de WSS-client. TCP-peers bewijzen geen werkende TLS- of VPN-verbinding.</value></data>
+  <data name="Settings.RefreshHint" xml:space="preserve"><value>Ververs om de actuele WSS-relay uit te lezen.</value></data>
+  <data name="Settings.ExternalNote" xml:space="preserve"><value>Beheer VPN-profielinhoud in WireGuard. De relaybestemming wordt beheerd door de bestaande WSS-scripts.</value></data>
+  <data name="Settings.SplitProfile" xml:space="preserve"><value>Te volgen split-profiel</value></data>
+  <data name="Settings.FullProfile" xml:space="preserve"><value>Te volgen full-profiel</value></data>
+  <data name="Settings.WssExecutable" xml:space="preserve"><value>WSS-programma</value></data>
+  <data name="Settings.ListenerPort" xml:space="preserve"><value>Lokale UDP-poort</value></data>
+  <data name="Settings.Browse" xml:space="preserve"><value>Bladeren…</value></data>
+  <data name="Settings.ExecutableFilter" xml:space="preserve"><value>Programma's (*.exe)|*.exe|Alle bestanden (*.*)|*.*</value></data>
+  <data name="Settings.ControlNote" xml:space="preserve"><value>De VPN-knoppen ondersteunen de standaard TunnelWatchWss-clientindeling. Andere profielnamen, programma's of poorten schakelen die knoppen uit.</value></data>
+  <data name="Settings.MonitoringNote" xml:space="preserve"><value>Deze instellingen bepalen wat TunnelWatch controleert. Opslaan verandert geen VPN-routes, DNS of WSS-verbinding.</value></data>
+  <data name="Settings.Router" xml:space="preserve"><value>Routertestadres (IPv4)</value></data>
+  <data name="Settings.HomeHost" xml:space="preserve"><value>Thuistestadres (IPv4)</value></data>
+  <data name="Settings.HomeNetwork" xml:space="preserve"><value>Thuisnetwerk (CIDR)</value></data>
+  <data name="Settings.DnsServer" xml:space="preserve"><value>DNS-testserver (IPv4)</value></data>
+  <data name="Settings.DnsName" xml:space="preserve"><value>DNS-testnaam</value></data>
+  <data name="Settings.Interval" xml:space="preserve"><value>Controle-interval (seconden)</value></data>
+  <data name="Settings.Timeout" xml:space="preserve"><value>Testtime-out (milliseconden)</value></data>
+  <data name="Settings.ImmediateNote" xml:space="preserve"><value>Taal en starten bij aanmelden werken direct. Opslaan past de verbindingscontroles toe.</value></data>
+  <data name="Settings.Save" xml:space="preserve"><value>Opslaan</value></data>
+  <data name="Settings.Cancel" xml:space="preserve"><value>Annuleren</value></data>
+  <data name="Settings.SaveError" xml:space="preserve"><value>Instellingen konden niet worden toegepast: {0}</value></data>
+  <data name="Settings.SaveUnavailable" xml:space="preserve"><value>Er is geen instellingenopslag beschikbaar.</value></data>
+</root>

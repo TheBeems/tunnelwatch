@@ -1,0 +1,14 @@
+{
+  "Language": "en",
+  "SplitProfile": "tunnelwatch-wss-split",
+  "FullProfile": "tunnelwatch-wss-full",
+  "WssExecutable": "%LOCALAPPDATA%\\TunnelWatchWss\\wstunnel.exe",
+  "ListenerPort": 39075,
+  "Router": "192.0.2.1",
+  "HomeHost": "198.51.100.33",
+  "HomeNetwork": "198.51.100.0/24",
+  "DnsServer": "198.51.100.2",
+  "DnsName": "nas.example.test",
+  "IntervalSeconds": 10,
+  "TimeoutMilliseconds": 1200
+}
